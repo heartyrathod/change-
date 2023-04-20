@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.tabSize": 2,
+		"editor.insertSpaces": false,
+		"liveSassCompile.settings.formats": [
+			{
+				"format": "compressed",
+				"extensionName": ".min.css",
+				"savePath": "/wp-content/themes/crocodile-commerce-child/assets/css"
+			},
+		],
+		"liveSassCompile.settings.excludeList": [
+			"/**/node_modules/**",
+			"/.vscode/**",
+			"/wp-admin/**",
+			"/wp-includes/**",
+			"/wp-content/plugins/**",
+			"/wp-content/upgrade/**",
+			"/wp-content/uploads/**",
+			"/wp-content/litespeed/**",
+			"/wp-content/maintenance/**",
+			"/wp-content/cache/**",
+			"/wp-content/logs/**",
+			"/wp-content/themes/crocodile-commerce/**",
+			"/wp-content/themes/crocodile-commerce-child/sass/bootstrap/**",
+			"/wp-content/themes/crocodile-commerce-child/sass/pages/**/partials/**",
+			"/wp-content/themes/crocodile-commerce-child/sass/pages/**/**/partials/**",
+			"/wp-content/themes/crocodile-commerce-child/sass/components/**",
+			"/wp-content/themes/crocodile-commerce-child/sass/modules/**",
+		]
+	}
+}
